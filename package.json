@@ -1,0 +1,17 @@
+{
+  "name": "testes-automatizados",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "open/cypress": "npx cypress open",
+    "run/project": "npx cypress run"
+  },
+  "dependencies": {
+    "cypress": "^14.2.1"
+  }
+}
