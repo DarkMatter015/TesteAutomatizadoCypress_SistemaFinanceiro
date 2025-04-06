@@ -40,6 +40,8 @@ Este projeto utiliza o **Cypress** para realizar testes automatizados em um site
 
 ### **Bug #1 [HotFix] - Cadastro de Transação com Valor Zero**
 - **Descrição:** O sistema permite o cadastro de uma transação (entrada ou saída) com valor igual a R$0, o que não deveria ser permitido, pois não afeta o saldo e polui a listagem.
+- **Evidência Atual**
+![Bug](/cypress/screenshots/bug1-erro.png)
 - **Passos para Reproduzir:**
     1. Acesse o site FinanceDev.
     2. Clique em "+ Nova Transação".
